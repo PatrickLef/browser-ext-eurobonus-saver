@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "Eurobonus Saver",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "EB Saver",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Save EuroBonus points by getting instant feedback when shopping on sites connected to EuroBonus online shopping.",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "Eurobonus Saver",
+    "description": "The title of the browser action button"
+  }
+}

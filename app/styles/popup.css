@@ -1,0 +1,25 @@
+body {
+  min-width: 300px;
+}
+
+#store-url {
+  display: block;
+  background: #2b0f73;
+  width: 100% -20px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+#settings {
+  display: block;
+  background: red;
+  width: 100% -20px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}

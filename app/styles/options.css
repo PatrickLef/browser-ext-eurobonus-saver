@@ -1,0 +1,24 @@
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input[type=text] {
+  margin-top: 5px;
+  border-radius: 0px;
+  height: 25px;
+  border-left: 0px;
+}
+
+span.prefix {
+  background: #2b0f73;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.bottom {
+  margin-top: 25px;
+  border-top: 1px dashed lightgrey;
+  padding-top: 10px;
+}
