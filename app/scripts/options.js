@@ -12,8 +12,10 @@ const saveStoreNotification = e => {
 
 const restoreOptions = () => {
   browser.storage.sync.get("euroBonusNumber").then(res => {
-    document.querySelector('input[name="euroBonusNumber"]').value =
-      res.euroBonusNumber;
+    if (res.euroBonusNumber) {
+      document.querySelector('input[name="euroBonusNumber"]').value =
+        res.euroBonusNumber;
+    }
   });
 
   browser.storage.sync.get("storeNotification").then(res => {
